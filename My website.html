@@ -1,0 +1,265 @@
+<!Doctype html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>My first website</title>
+</head>
+
+<style>
+.hero{
+background:gray;
+height:100vh;
+Display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.menu{
+background-color:yellow;
+height:40px;
+}
+
+.menu ul{
+text-align:center;
+}
+
+.menu ul li{
+list-style:none;
+display:inline;
+}
+
+.menu ul li a{
+text-decoration:none;
+diplay:inline-block;
+line-height:40px;
+padding:0px 15px 0px 15px;
+}
+
+.menu ul li a:hover{
+background-color:pink;
+opacity:0.2;
+}
+
+
+.buttom{
+text-align:center;
+padding-top:30px;
+padding-buttom:100%;
+}
+
+.col-wrapper{
+width:90%;
+margin:auto;
+padding-top:50px;
+}
+
+.services-col{
+width:33.33%;
+float:left;
+}
+
+.services-col img{
+width:80px;
+max-width:100%;
+}
+
+.col-wrapper::a{
+clear:both;
+display:table;
+content:"";
+}
+
+.services-content{
+text-align:center;
+}
+
+.text{
+margin-right:40px;
+text-align:center;
+padding-top:100px;
+paddimg-buttom:100px;
+background-image: url(d.jpg);
+}
+
+
+.ali{
+text-align:center;
+background-image: url(d.jpg);
+
+background-attachment:fixed;
+}
+
+.contact{
+background-color:yellow;
+height:70px;
+}
+
+.cta-col{
+width:33.33%;
+float:left;
+text-align:center;
+}
+
+.cta::after{
+content:"";
+clear:both;
+display:table;
+}
+
+.info{
+width:100%;
+text-align:center;
+}
+
+.info-col1{
+width:35px;
+
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-wrapper {
+  border: 2px solid #000;
+  width: 1050px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lop{
+position:relative;z-index:3;margin-top:-200px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+.info{
+text-align:center;
+}
+
+.info-col1{
+width:35px;
+float:left;
+
+
+}
+
+.info-col2{
+width:65px;
+}
+
+.fa-facebook {
+background-color:blue;
+color:white;
+border-radius:50px;
+}
+
+</style>
+
+<body>
+<section class="hero">
+<h1>My Name is AbdulRehman</h1>
+<h4>I am a WebDevelper</h4>
+</section>
+
+<nav class="menu">
+<ul>
+<li><a href="">Home&nbsp;</a></li>
+<li><a href="">About&nbsp;</a></li>
+<li><a href="">Service&nbsp;</a></li>
+<li><a href="">portfolio&nbsp;</a></li>
+<li><a href="">Contract&nbsp;</a></li>
+</ul>
+</nav>
+
+<section class="buttom">
+<h1>Services<h1>
+<div class="col-wrapper">
+<div class="services-col">
+<img src="web image.jpg" alt="">
+<h3>Service Name</h3>
+<p class="services-content">
+This is html Image.
+</p>
+</div>
+<div class="services-col">
+<img src="html image.jpg" alt="">
+<h3>Service Name</h3>
+<p class="services-content">
+This is HTML Image.
+</p>
+</div>
+<div class="services-col">
+<img src="web image.jpg" alt="">
+<h3>Service Name</h3>
+<p class="services-content">
+This is a content Image.
+</p>
+</div>
+</div>
+</Section>
+<br><br><br><br><br><br><br><br><br><br>
+<section  class="video-wrapper">
+<video playsinline autoplay muted loop poster="cake.jpg">
+    <source src="https://cdn.videvo.net/videvo_files/video/free/2019-07/small_watermarked/Raw_Vegan_Blueberry_Cake_Cut_Birthday_Cooking_preview.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+
+
+
+
+<div class="lop">
+<h1>About us </h1>
+<p>My name is abdul rehman irfan. I am a web develper. By tara teachnology C.E.O hafiz muhammad furqan tahir jameel.
+uilhiuyniuyuiyipuykpiyjighjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkffffdsthnbjgjjjkh </p>
+<button class="about-btn">Read More</button> </div>
+</section>
+
+<section class="contact">
+<div class="cta">
+<div class="cta-col">
+<i class="fa fa-envelope fa-2x"></i>
+<h3>info@email.com</h3>
+</div>
+<div class="cta-col">
+<i class="fa fa-phone fa-2x"></i>
+<h3>03069005454</h3>
+</div>
+<div class="cta-col">
+<i class="fa fa-fax fa-2x"></i>
+<h3>03069005454</h3>
+</div>
+</div>
+</section>
+
+<section class="info">
+<div class="info-col1">
+<h4>Contact information</h4>
+<br><br>
+<i class="fa fa-envelope"></i> &nbsp;ABC@gmail.com<br>
+<i class="fa fa-phone"></i> &nbsp;03069005454<br><br>
+<b>Our Social Profile</b>&nbsp;
+<a href="https://fb.com/hmftj"><i class="fa fa-facebook"></i></a>&nbsp;
+<i class="fa fa-instagram"></i>&nbsp;
+<i class="fa fa-google"></i>&nbsp;
+<i class="fa fa-linkedin"></i>&nbsp;
+
+</div>
+<div class="info-col2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d346.49556322542463!2d73.06640110909936!3d31.38132460438096!2m3!1f0!2f0!3f0!3m2
+!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1650277575640!5m2!1sen!2s" width="460" height="200" style="border:0;" allowfullscreen="" 
+loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+</section>
+
+</body>
